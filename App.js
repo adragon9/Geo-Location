@@ -4,7 +4,7 @@ import MapView, { Marker, Polyline } from "react-native-maps";
 import * as Location from "expo-location";
 import styles from "./styles";
 
-export default function App() {
+function App() {
   const [location, setLocation] = useState(null);
   const [errorMsg, setErrorMsg] = useState(null);
 
@@ -63,3 +63,5 @@ export default function App() {
     </View>
   );
 }
+
+export default App;
