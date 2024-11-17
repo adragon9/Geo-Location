@@ -48,7 +48,7 @@ export default function App(){
               longitude: -87.42470777557662
             }}
             title={"Mi Ranchito Mexican Restaurant"}
-            description="A nearby restaurant"
+            description="A restaurant near my house."
           />
           {/* to help find the restaurant I marked */}
           <Polyline
@@ -64,3 +64,9 @@ export default function App(){
   );
 }
 
+{/* I was rather confused by what percisely I was supposed to do.
+  Namely I was not sure if I was supposed to have 'dynamic' markers
+  for everything or if I was just supposed to match the tutorial in the
+  book. I went with static because by all accounts I would have to use
+  potentially premium google maps api features to dynamically find nearby
+  restaurants. */}
